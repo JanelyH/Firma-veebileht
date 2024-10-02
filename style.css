@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans' , sans-serif;;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+}
+/* page basic style */
+/* text */
+.text-primary {
+    color: #93cb52;
+}
+
+  /* navbar */
+#navbar {
+    background: #333;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: Irem;
+}
+#navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+#navbar ul li a:hover{
+    background: #93cb52;
+    border-radius: 5px;
+}
+/* showcase */
+#showcase {
+    background: #333 url('../img/showcase.jpg');
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content {
+    display: flex;
+    height: 100%;
+    padding: 0 2rem;
+}
