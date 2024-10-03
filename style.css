@@ -18,6 +18,39 @@ a {
 .text-primary {
     color: #93cb52;
 }
+.text-center {
+    text-align: center;
+}
+/* padding */
+.py-1 {
+    padding: lrem 0;
+}
+.py-1 {
+    padding: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary {
+    background: #93cb52;
+    color: #fff;
+}
+.btn-primary:hover {
+    background: #7ab436;
+}
+/* background */
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
 
   /* navbar */
 #navbar {
@@ -51,6 +84,58 @@ a {
 }
 #showcase .showcase-content {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     padding: 0 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* LARGE heading */
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+/* MEDIUM heading */
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.par {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* what */
+#what .items {
+    display: flex;
+}
+#what .items .item {
+    flex: 1;
+}
+#what .items .item i {
+    background: #93cb52;
+    border-radius: 50%;
+    margin-bottom: lrem;
+}
+/* who */
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}
+#who .who-img {
+    background: url('../img/people.jpg') no-repeat center center/cover;
+}
+#who ul {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+#who ul li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
 }
