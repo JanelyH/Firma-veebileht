@@ -64,27 +64,36 @@ a {
 }
 
   /* navbar */
-#navbar {
-    background: #333;
+  #navbar {
+    background-color: #333;
     color: #fff;
     position: sticky;
     top: 0;
     display: flex;
     justify-content: space-between;
-    padding: Irem;
+    padding: 1rem;
 }
+
 #navbar ul {
     list-style: none;
     display: flex;
     align-items: center;
+    padding: 0; /* Lisatud */
+    margin: 0; /* Lisatud */
 }
-#navbar ul li a {
-    color: #fff;
-    padding: 0.75rem;
+
+#navbar li { /* Muudetud ul li a asemel li */
     margin: 0 0.25rem;
 }
-#navbar ul li a:hover{
-    background: #93cb52;
+
+#navbar a { /* Muudetud ul li a asemel a */
+    color: #fff;
+    padding: 0.75rem;
+    text-decoration: none; /* Lisatud */
+}
+
+#navbar a:hover {
+    background-color: #93cb52;
     border-radius: 5px;
 }
 /* showcase */
